@@ -1,0 +1,3 @@
+####upload file to a remote cluster
+'''use cmd and go down to the file floder'''
+scp -P $port path/file.txt username@cluster:/pathoncluster
