@@ -1,0 +1,12 @@
+refer to plink download of v1.07
+https://training.nih-cfde.org/en/latest/Bioinformatic-Analyses/GWAS-in-the-cloud/plink_install/
+
+
+%copy link address of plink 1.9%
+wget https://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20231211.zip 
+
+unzip -o plink_linux_x86_64_20231211.zip
+rm plink-1.07-x86_64.zip
+echo export PATH=$PATH:$(pwd) >> ~/.bashrc
+source ~/.bashrc
+plink -h
