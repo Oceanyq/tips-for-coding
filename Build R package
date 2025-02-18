@@ -1,0 +1,20 @@
+1. build Functions external and internal
+
+2. testthat package test all functions
+
+3. roxygen2 build user manual
+
+4. Rmd build vignette
+
+5. document simulate test dataset and write examples
+
+6. in R console: 
+devtools::document()
+  devtools::check()
+
+7. in R terminal 
+R CMD build --resave-data `filename`
+
+ R CMD check --as-cran filename.tar.gz 
+
+
